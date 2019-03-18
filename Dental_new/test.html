@@ -1,0 +1,213 @@
+<!doctype html>
+<!--[if lte IE 9]> <html class="lte-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Remove Tap Highlight on Windows Phone IE -->
+        <meta name="msapplication-tap-highlight" content="no"/>
+
+        <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
+
+        <title>Altair Admin v2.2.0</title>
+
+
+        <!-- uikit -->
+        <link rel="stylesheet" href="bower_components/uikit/css/uikit.almost-flat.min.css" media="all">
+
+        <!-- flag icons -->
+        <link rel="stylesheet" href="assets/icons/flags/flags.min.css" media="all">
+
+        <!-- altair admin -->
+        <link rel="stylesheet" href="assets/css/main.min.css" media="all">
+
+        <!-- matchMedia polyfill for testing media queries in JS -->
+        <!--[if lte IE 9]>
+            <script type="text/javascript" src="bower_components/matchMedia/matchMedia.js"></script>
+            <script type="text/javascript" src="bower_components/matchMedia/matchMedia.addListener.js"></script>
+        <![endif]-->
+
+    </head>
+    <body class=" sidebar_main_open sidebar_main_swipe">
+
+        <div id="page_content">
+            <div id="page_content_inner">
+
+                <div class="md-card">
+                    <div class="uk-width-large-1-2">
+                        <span class="uk-form-help-block" style="font-size: 15px">Select the Area/Teeth for CBCT</span><br/>
+                        <div class="uk-form-row">
+                            <div class="btn-group" name="group1">
+                                <input type="image" src="assets/img/d8.png" width="30" height="30" data-uk-modal="{target:'#modal_header_footer'}">
+                                <input type="image" src="assets/img/d7.png" alt="" width="30" height="30">
+                                <input type="image" src="assets/img/d6.png" alt="" width="30" height="30">
+                                <input type="image" src="assets/img/d5.png" alt="" width="30" height="30">
+                                <input type="image" src="assets/img/d4.png" alt="" width="30" height="30">
+                                <input type="image" src="assets/img/d3.png" alt="" width="30" height="30">
+                                <input type="image" src="assets/img/d2.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d1.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/line.jpg" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d1.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d2.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d3.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d4.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d5.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d6.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d7.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d8.png" alt="Submit" width="30" height="30">
+                            </div>
+                        </div> 
+                        <div class="uk-form-row">
+                            <div class="btn-group" name="group2">
+                                <input type="image" src="assets/img/d8.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d7.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d6.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d5.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d4.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d3.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d2.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d1.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/line.jpg" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d1.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d2.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d3.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d4.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d5.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d6.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d7.png" alt="Submit" width="30" height="30">
+                                <input type="image" src="assets/img/d8.png" alt="Submit" width="30" height="30">
+                            </div>
+                        </div> 
+                        <div class="uk-modal" id="modal_header_footer">
+                            <div class="uk-modal-dialog">
+                                <div class="uk-modal-header">
+                                    <h3 class="uk-modal-title">Compliant</h3>
+                                </div>
+                                <h4>Prosthetic</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="IMPLANT"> IMPLANT
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="BRIDGE"> BRIDGE
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="C.D./P.D."> C.D./P.D.
+                                        </label>
+                                    </div>
+                                </div><br/>
+                                <h4>Operative</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="FILLING"> FILLING
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="ENDODONTIC"> ENDODONTIC
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="CROWN"> CROWN
+                                        </label>
+                                    </div>
+                                </div><br/>
+                                <h4>Periodontia</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="SCALING"> SCALING
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="SURGICAL"> SURGICAL
+                                        </label>     
+                                    </div>
+                                </div><br/>
+                                <h4>Oral Surgery</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="EXTRACTION"> EXTRACTION
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="OTHER"> OTHER SURGICAL PROCEDURE
+                                        </label>
+                                    </div>
+                                </div><br/>
+                                <h4>Cosmetic</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="TEETH WHITENING OR VENEER"> TEETH WHITENING OR VENEER
+                                        </label>    
+                                    </div>
+                                </div><br/>
+                                <h4>Radiology</h4>
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="male" value="INTRA ORAL"> INTRA ORAL
+                                        </label>
+                                        <label class="radio-inline" style="float: left">
+                                            <input type="radio" id="female" value="EXTRA ORAL"> EXTRA ORAL
+                                        </label>
+                                    </div>
+                                </div><br/>
+                                <div class="uk-modal-footer uk-text-right">
+                                    <button type="button" class="md-btn md-btn-flat uk-modal-close">Close</button><button type="button" class="md-btn md-btn-flat md-btn-flat-primary">Action</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                                                <div class="uk-form-row">
+                                                                            <label for="notes">Additional Notes</label>
+                                                                            <textarea class="md-input" name="notes" id="notes" cols="5" rows="2"></textarea>
+                                                                        </div>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- google web fonts -->
+        <script>
+            WebFontConfig = {
+                google: {
+                    families: [
+                        'Source+Code+Pro:400,700:latin',
+                        'Roboto:400,300,500,700,400italic:latin'
+                    ]
+                }
+            };
+            (function () {
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
+
+        <!-- common functions -->
+        <script src="assets/js/common.min.js"></script>
+        <!-- uikit functions -->
+        <script src="assets/js/uikit_custom.min.js"></script>
+        <!-- altair common functions/helpers -->
+        <script src="assets/js/altair_admin_common.min.js"></script>
+
+
+        <script>
+            $(function () {
+                // enable hires images
+                altair_helpers.retina_images();
+                // fastClick (touch devices)
+                if (Modernizr.touch) {
+                    FastClick.attach(document.body);
+                }
+            });
+        </script>
+
+    </body>
+</html>
